@@ -24,69 +24,84 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-    
       <body className={inter.className}>
         <NavBar />
+        <div className="home"/>
         <Hero/>
-        <LogoBox/>
-        <DescBox
+        <LogoBox />
         
-        headingOne={"ABOUT US"}
-        headingTwo={"We Always<br/>Prioritize Quality<br/>And Unique Style"}
-        desc={"Goba is an agency with 10+ years of experience<br/>that has helped more than 300+ projects from<br/>small to large projects. We also have several<br/>projects that can help your business"}
-        button={"Contact Us"}
+        <DescBox
+        id={"about"}
+          headingOne={"ABOUT US"}
+          headingTwo={"We Always<br/>Prioritize Quality<br/>And Unique Style"}
+          desc={
+            "Goba is an agency with 10+ years of experience<br/>that has helped more than 300+ projects from<br/>small to large projects. We also have several<br/>projects that can help your business"
+          }
+          button={"Contact Us"}
         />
         <Image
-        className="placeholder_image"
-        src="/place_holder.png"
-        alt="placeholder"
-        width={1000}
+          className="placeholder_image"
+          src="/place_holder.png"
+          alt="placeholder"
+          width={1000}
           height={1000}
           priority
         />
         <DescBox
-        
-        headingOne={"SERVICE"}
-        headingTwo={"Provide The Best<br/>Offer According To<br/>Your Needs<br/>"}
-        desc={"We can adjust your needs so that your<br/>business can grow and you can run <br/>other businesses"}
-        button={"More Project"}
+         id={"service"}
+          headingOne={"SERVICE"}
+          headingTwo={
+            "Provide The Best<br/>Offer According To<br/>Your Needs<br/>"
+          }
+          desc={
+            "We can adjust your needs so that your<br/>business can grow and you can run <br/>other businesses"
+          }
+          button={"More Project"}
         />
-  <section className="offering_layout">
-  <OfferingBox 
-         num={"01"} 
-         headingOne={"UIUX Design" }
-         desc={"Make your business more attractive by building brand awareness, we<br/>have several services such as logo design, brand identity, packaging,<br/>and also everything related to brand."}
-        
+        <section className="offering_layout">
+          <OfferingBox
+            num={"01"}
+            headingOne={"UIUX Design"}
+            desc={
+              "Make your business more attractive by building brand awareness, we<br/>have several services such as logo design, brand identity, packaging,<br/>and also everything related to brand."
+            }
+          />
+          <OfferingBox
+            num={"02"}
+            headingOne={"Branding"}
+            desc={
+              "Make your business more attractive by building brand awareness, we<br/>have several services such as logo design, brand identity, packaging,<br/>and also everything related to brand."
+            }
+          />
+          <OfferingBox
+            num={"03"}
+            headingOne={"Social Media"}
+            desc={
+              "Make your business more attractive by building brand awareness, we<br/>have several services such as logo design, brand identity, packaging,<br/>and also everything related to brand."
+            }
+          />
+          <OfferingBox
+            num={"04"}
+            headingOne={"Digital Marketing"}
+            desc={
+              "Make your business more attractive by building brand awareness, we<br/>have several services such as logo design, brand identity, packaging,<br/>and also everything related to brand."
+            }
+          />
+        </section>
+        <DescBox
+         id={"project"}
+          headingOne={"SERVICE"}
+          headingTwo={"Some of The<br/>Projects We Have <br/>As Well<br/>"}
+          desc={
+            "We can adjust your needs so that your<br/>business can grow and you can run<br/>other businesses"
+          }
+          button={"More Project"}
         />
-        <OfferingBox 
-         num={"02"} 
-         headingOne={"Branding" }
-         desc={"Make your business more attractive by building brand awareness, we<br/>have several services such as logo design, brand identity, packaging,<br/>and also everything related to brand."}
-        
-        />
-        <OfferingBox 
-         num={"03"} 
-         headingOne={"Social Media" }
-         desc={"Make your business more attractive by building brand awareness, we<br/>have several services such as logo design, brand identity, packaging,<br/>and also everything related to brand."}        
-        />
-        <OfferingBox 
-         num={"04"} 
-         headingOne={"Digital Marketing" }
-         desc={"Make your business more attractive by building brand awareness, we<br/>have several services such as logo design, brand identity, packaging,<br/>and also everything related to brand."}        
-        />
-  </section>
-  <DescBox
-        
-        headingOne={"SERVICE"}
-        headingTwo={"Some of The<br/>Projects We Have <br/>As Well<br/>"}
-        desc={"We can adjust your needs so that your<br/>business can grow and you can run<br/>other businesses"}
-        button={"More Project"}
-        />
-    <ImageBox/>
-    <section className="centre">
-    <Testimonial/>
-    </section>
-   <Footer />
+        <ImageBox />
+        <section className="centre">
+          <Testimonial />
+        </section>
+        <Footer />
       </body>
     </html>
   );

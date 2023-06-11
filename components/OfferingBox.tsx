@@ -1,6 +1,6 @@
-import React from 'react';
-import Image from 'next/image';
-import styles from './OfferingBox.module.css';
+import React from "react";
+import Image from "next/image";
+import styles from "./OfferingBox.module.css";
 
 interface OfferingBoxProps {
   num: string;
@@ -14,8 +14,8 @@ const OfferingBox: React.FC<OfferingBoxProps> = ({ num, headingOne, desc }) => {
       <div>
         <h4>{num}</h4>
         <div>
-          <h2 >{headingOne}</h2>
-          <p dangerouslySetInnerHTML={{ __html: desc }}/>
+          <h2>{headingOne}</h2>
+          <p dangerouslySetInnerHTML={{ __html: desc }} />
         </div>
       </div>
       <Image

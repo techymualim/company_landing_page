@@ -1,84 +1,84 @@
 .testimonial {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 72vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 72vw;
 }
 
 .center {
-    background: #0B015B;
-    display: flex;
-    justify-content: center;
-    padding: 6em 0;
+  background: #0b015b;
+  display: flex;
+  justify-content: center;
+  padding: 6em 0;
 }
 
 .testimonial h1 {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 102px;
-    color: #FFFFFF;
-    margin-bottom: 0.5em;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 102px;
+  color: #ffffff;
+  margin-bottom: 0.5em;
 }
 
 .paraOne {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 41px;
-    color: #FFFFFF;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  color: #ffffff;
 }
 
 .paraTwo {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    color: #FFFFFF;
-} 
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+}
 
 /* Media Queries for responsiveness */
 
 @media (max-width: 768px) {
-    .testimonial {
-        width: 90vw;
-        align-items: center;
-        text-align: center;
-    }
+  .testimonial {
+    width: 90vw;
+    align-items: center;
+    text-align: center;
+  }
 
-    .testimonial h1 {
-        font-size: 60px;
-        line-height: 80px;
-    }
+  .testimonial h1 {
+    font-size: 60px;
+    line-height: 80px;
+  }
 
-    .paraOne {
-        font-size: 26px;
-        line-height: 34px;
-    }
+  .paraOne {
+    font-size: 26px;
+    line-height: 34px;
+  }
 
-    .paraTwo {
-        font-size: 18px;
-        line-height: 24px;
-    }
+  .paraTwo {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 @media (max-width: 576px) {
-    .testimonial h1 {
-        font-size: 40px;
-        line-height: 60px;
-    }
+  .testimonial h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
 
-    .paraOne {
-        font-size: 22px;
-        line-height: 30px;
-    }
+  .paraOne {
+    font-size: 22px;
+    line-height: 30px;
+  }
 
-    .paraTwo {
-        font-size: 16px;
-        line-height: 22px;
-    }
+  .paraTwo {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
