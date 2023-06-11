@@ -2,13 +2,18 @@
   background-color: #0b015b;
   padding-bottom: 10vh;
   height: 100%;
+  border-bottom: 10vh solid #703EFE;
 }
 
 .hero header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+
+
 }
+
 .hero h1 {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
