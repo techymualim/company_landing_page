@@ -1,0 +1,46 @@
+
+.hero{
+    background-color:#0B015B ;
+    padding-bottom:10vh;
+    height: 100%;
+}
+
+.hero header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.hero h1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14vw;
+    display: flex;
+    align-items: center;
+    color: white;
+    line-height: 98%;
+    
+}
+.hero h1 p{
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 200%;
+margin-left: 10vw;
+}
+
+.hero h1:nth-child(1){
+    margin-left:29vw;
+    @media (max-width: 900px) {
+        margin: 0; /* Zero margin for smaller screens */
+      }
+}
+.hero h1:nth-child(2){
+    margin-left:10vw;
+}
+.hero h1:nth-child(3){
+    margin-left:37vw;
+}
+

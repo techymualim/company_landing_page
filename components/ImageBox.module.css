@@ -1,0 +1,29 @@
+.image{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    flex-basis: 2vw;
+  
+  }
+  .box_image{
+    display: flex;
+    gap: 1vw;
+    flex-direction: column;
+    padding-bottom: 4em;
+  }
+
+ .box_image div:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vw;
+    margin: 0 10vw;
+  }
+ 
+  .box_image div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1vw;
+    padding: 0px 15vw;
+  }
