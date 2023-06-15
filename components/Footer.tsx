@@ -12,7 +12,7 @@ const Footer = () => {
         </h2>
         <Image
           className={styles.image}
-          src="/lets_talk.png"
+          src="/lets_talk.svg"
           alt="lets_talk_circle"
           width={100}
           height={100}

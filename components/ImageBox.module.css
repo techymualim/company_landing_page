@@ -38,7 +38,7 @@
 
 /* Media Queries for responsiveness */
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .box_image div:nth-child(1),
   .box_image div:nth-child(2) {
     margin: 0;
@@ -49,7 +49,7 @@
   .box_image div:nth-child(2) img {
     flex-basis: 100%;
     margin-bottom: 1vw;
-    padding: 10vw;
+    padding: 2vw;
   }
 }
 
@@ -63,6 +63,6 @@
 
   .box_image div:nth-child(1) img,
   .box_image div:nth-child(2) img {
-    padding: 10vw;
+    padding: 4vw;
   }
 }
